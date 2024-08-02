@@ -53,8 +53,6 @@ int main()
     cout << "The element at vector_2d are: \n" << vector_2d.at(0).at(0) << " " << vector_2d.at(0).at(1) <<   endl << vector_2d.at(1).at(0) << " " << vector_2d.at(1).at(1) <<  endl;
 
     vector1.at(0) = 1000;
-    vector_2d.push_back(vector1);
-    vector_2d.push_back(vector2);
     cout << "The element at vector_2d after update: \n" << vector_2d.at(0).at(0) << " " << vector_2d.at(0).at(1) << endl << vector_2d.at(1).at(0) << " " << vector_2d.at(1).at(1) << endl;
     cout << "The elements in vector 1 after update: " << vector1.at(0) << " " << vector1.at(1) << " Size of vector is " << vector1.size() << endl;
 
