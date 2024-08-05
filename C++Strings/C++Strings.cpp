@@ -29,7 +29,7 @@ int main()
 
 	cout << "========Comparison=============" << endl;
 
-	cout << boolalpha;
+	cout << boolalpha; 
 	cout << s1 << " == " << s5 << ": " << (s1 == s5) << endl;
 	cout << s1 << " == " << s2 << ": " << (s1 == s2) << endl;
 	cout << s1 << " != " << s2 << ": " << (s1 != s2) << endl;
@@ -56,7 +56,7 @@ int main()
 	s3 = "Watermelone";
 	s3 = s5 + " and " + s2 + " juice";
 	cout << s3 << endl;
-	cout << s5 + " and " + s2 + " juice" << endl;
+	cout << s5 + " and " + s2 + " juice" << endl; 
 	
 	
 }
