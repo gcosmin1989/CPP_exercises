@@ -57,7 +57,35 @@ int main()
 	s3 = s5 + " and " + s2 + " juice";
 	cout << s3 << endl;
 	cout << s5 + " and " + s2 + " juice" << endl; 
+
+	cout << "========Looping=============" << endl;
 	
+	for (size_t i{ 0 }; i < s1.length(); i++)
+		cout << s1.at(i);
+	cout << endl;
+
+	for (char c : s1)
+		cout << c;
+	cout << endl;
+
+	cout << "========Substring=============" << endl;
+	s1 = "This is a test";
+	cout << s1.substr(0, 4) << endl;
+	cout << s1.substr(5, 2) << endl;
+	cout << s1.substr(8, 1) << endl;
+	cout << s1.substr(10,4) << endl;
 	
+	cout << "========Erase=============" << endl;
+
+	s1.erase(0, 5);
+	cout << s1 << endl;
+
+	cout << "========Get Line=============" << endl;
+
+	string full_name{};
+	cout << "Enter full name: " << endl;
+	getline(cin, full_name);
+	cout << full_name << endl;
+
 }
 
