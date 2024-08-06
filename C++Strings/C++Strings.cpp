@@ -87,5 +87,6 @@ int main()
 	getline(cin, full_name);
 	cout << full_name << endl;
 
+	cout << "========Get Line=============" << endl;
 }
 
