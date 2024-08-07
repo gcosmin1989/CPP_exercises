@@ -15,6 +15,6 @@ unsigned long long fibonacci(unsigned long long n) {
 int main()
 {
 	cout << fibonacci(2) << endl;
-	cout << fibonacci(5) << endl;
+	cout << fibonacci(6) << endl;
 }
 
