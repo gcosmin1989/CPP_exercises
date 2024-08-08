@@ -1,0 +1,3 @@
+﻿  AccessClassMembers.cpp
+C:\Users\cog\Desktop\CPP_Stuff\FirstProgram\AccessClassMembers\AccessClassMembers.cpp(33,9): error C2561: 'Account::deposit': function must return a value
+C:\Users\cog\Desktop\CPP_Stuff\FirstProgram\AccessClassMembers\AccessClassMembers.cpp(40,9): error C2561: 'Account::witdraw': function must return a value
