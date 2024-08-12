@@ -1,0 +1,4 @@
+﻿  Circle_exercise_C++.cpp
+C:\Users\cog\source\repos\Circle_exercise_C++\Circle_exercise_C++.cpp(10,22): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\cog\source\repos\Circle_exercise_C++\Circle_exercise_C++.cpp(16,19): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Circle_exercise_C++.vcxproj -> C:\Users\cog\source\repos\Circle_exercise_C++\x64\Debug\Circle_exercise_C++.exe
